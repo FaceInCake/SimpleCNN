@@ -1,9 +1,7 @@
 
 import unittest
 from ImageReader import get_test_images, get_test_labels, get_training_images, get_training_labels
-from cv2 import namedWindow, imshow, waitKey, destroyWindow, resizeWindow
 from random import sample
-from numpy import ndarray
 
 class t_train_images (unittest.TestCase):
 
